@@ -99,7 +99,7 @@ main {
 }
 
 .first-screen {
-  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("/img/first-screen.jpg");
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/first-screen.jpg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -173,7 +173,7 @@ main {
   display: flex;
 }
 .new-collection {
-  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("/img/new-collection.png");
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/new-collection.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -235,7 +235,7 @@ main {
   height: 600px;
 }
 .collection-2018__img {
-  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("/img/2018.jpg");
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/2018.jpg");
   background-size: cover;
   background-position: center;
   width: 44.4444444444%;
@@ -274,7 +274,7 @@ main {
 }
 
 footer {
-  background: linear-gradient(0deg, rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)), url("/img/footer-bg.jpg");
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)), url("../img/footer-bg.jpg");
   background-size: cover;
   background-position: center;
   color: white;
