@@ -169,8 +169,10 @@ main {
 }
 
 .new {
-  height: 730px;
   display: flex;
+}
+.new > div {
+  height: 730px;
 }
 .new-collection {
   background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/new-collection.png");
@@ -232,6 +234,8 @@ main {
 
 .collection-2018 {
   display: flex;
+}
+.collection-2018 > div {
   height: 600px;
 }
 .collection-2018__img {
@@ -248,7 +252,7 @@ main {
   align-items: center;
 }
 .collection-2018__inner p {
-  width: 471px;
+  max-width: 471px;
   margin-top: 40px;
   margin-bottom: 60px;
   text-align: center;
@@ -270,7 +274,11 @@ main {
 .our-brands__inner {
   padding-top: 40px;
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.our-brands__inner img {
+  width: 23%;
 }
 
 footer {

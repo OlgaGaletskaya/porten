@@ -108,7 +108,7 @@ main{
     background-color: black;
 }
 .first-screen{
-    @include bg('/img/first-screen.jpg');
+    @include bg('../img/first-screen.jpg');
     color: white;
     
     text-transform: uppercase;
@@ -177,10 +177,12 @@ main{
     color: #FFFFFF;
 }
 .new{
+    &>div{
     height: 730px;
+    }
     display: flex;
     &-collection{
-        @include bg('/img/new-collection.png');
+        @include bg('../img/new-collection.png');
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
@@ -236,9 +238,11 @@ main{
 }
 .collection-2018{
     display: flex;
+    & > div{
     height: 600px;
+    }
     &__img{
-        @include bg('/img/2018.jpg');
+        @include bg('../img/2018.jpg');
         width: calc(100%/9*4);
     }
     &__inner{
@@ -248,7 +252,7 @@ main{
         justify-content: center;
         align-items: center;
         & p{
-            width: 471px;
+           max-width: 471px;
            margin-top: 40px;
            margin-bottom: 60px;
            text-align: center;
@@ -274,11 +278,14 @@ main{
     &__inner{
         padding-top: 40px;
         display: flex;
-        gap: 30px;
+        
+        justify-content: space-between;
+        flex-wrap: wrap;
+        & img{width: 23%}
     }
 }
 footer{
-    @include bgper('/img/footer-bg.jpg', 0.85);
+    @include bgper('../img/footer-bg.jpg', 0.85);
     
     color: white;
 }

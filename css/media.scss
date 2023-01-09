@@ -1,0 +1,17 @@
+@media (max-width: 880px) {
+    
+.our-brands__inner img {
+    width: 47%;
+}
+.nav{display: none;}
+}
+@media (max-width: 945px) {
+    .new, .collection-2018, .footer__inner{
+        flex-direction: column;
+        &>div{width: 100%;}
+    }
+    
+}
+@media (max-width:595px) {
+    .top-line{display: none;}    
+}
